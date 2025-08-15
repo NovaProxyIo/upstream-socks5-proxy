@@ -1,0 +1,22 @@
+{
+    "author": "NovaProxy",
+    "bundleDependencies": [
+        "ipv6"
+    ],
+    "dependencies": {
+        "ipv6": "*",
+        "socks": "^2.8.7"
+    },
+    "description": "SOCKS5 server with socks5 upstream capabilities for NodeJS",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "license": "ISC",
+    "main": "./index",
+    "name": "upstream-socks5-proxy",
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "version": "1.0.2"
+}
